@@ -31,7 +31,7 @@ class RoomsController < ApplicationController
     if @room.update(room_params)
       redirect_to rooms_path
     else
-      render 
+      render edit
     end
   end
 
